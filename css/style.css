@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+hr {
+    border-top: 0.15rem solid;
+    width: 100%;
+}
+
+.sites {
+    background-image: linear-gradient(#eeeeee, white);
+}
+
+input {
+    width: 80%;
+    display: block;
+    margin: 1rem auto;
+    border: none;
+    padding: 0.2rem 0.5rem;
+    /* background-color: #0b3d72; */
+    transition: all 0.3s linear;
+}
+
+input:hover {
+    box-shadow: 0px 0px 10px rgb(204, 202, 202);
+}
+
+.mainHolder p{
+    background-color: #ffb2b2;
+    border: 2px solid #730707!important;
+    color: #6d0000;
+}
+
+.Button {
+    background-color: #1167c4 !important;
+}
+
+.Button:hover {
+    background-color: #0b3d72 !important;
+    box-shadow: 0px 5px 5px rgb(76, 75, 75);
+}
+
+.deleteBtn {
+    background-color: #910004 !important;
+}
+
+.deleteBtn:hover {
+    background-color: #720b0b !important;
+    box-shadow: 0px 5px 5px rgb(76, 75, 75);
+}

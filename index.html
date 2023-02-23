@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container-fluid p-4 w-75 m-auto vh-100">
+        <h1 class="bookmark my-5 text-secondary fs-2"> Bookmark</h1>
+        <hr>
+        <div class="mainHolder d-flex justify-content-center align-items-center text-nowrap bg-secondary-subtle w-100 m-auto">
+            <div class="container text-center my-4 py-5 w-75">
+                <h2>Bookmark your favorite sites</h2>
+                
+    
+                <label class="my-2 d-block fw-bold" for="siteName"> Site Name </label>
+                <input class="form-control my-2" placeholder="Bookmark Name" type="text" name="" id="siteName">
+                <p class="warning1 d-none mx-auto border rounded-2 fs-5 fw-bold text-center py-1" id="warning1">Name is required</p>
+                
+                <label class="my-2 d-block fw-bold" for="siteUrl">Site URL</label>
+                <input placeholder="Website URL" type="text" class="form-control my-2"  id="siteUrl">
+                <p class="warning2 d-none mx-auto border rounded-2 fs-5 fw-bold text-center py-1" id="warning2">Name is required</p>
+                
+                <button type="button" class="btn btn-primary" onclick="addSite()">Submit</button>
+                
+    
+            </div>
+
+           
+        </div>
+
+        <div class=" mx-auto my-3 bg-secondary-subtle mt-4" id="body">
+           
+        </div>
+
+        <hr class="mt-4">
+        <p class="fw-bolder text-secondary mt-3">© 2019 Bookmarker Inc.</p>
+        
+    </div>
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
